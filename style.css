@@ -1,7 +1,10 @@
 html {
   font-size: 10px;
-  background: url("./Akai-Pro-MPK-mini-mk3-feat-scaled.jpg") bottom center;
+  background: url("eyeverse.jpg") bottom center;
   background-size: cover;
+  
+ 
+
 }
 
 body,
@@ -49,4 +52,9 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffc600;
+}
+@media (max-width: 600px) {
+  .key {
+    width: 8rem;
+  }
 }
