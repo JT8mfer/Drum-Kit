@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
-  background: url("eyeverse.jpg") bottom center;
-  background-size: cover;
+  background: url("MilkyGoat.jpg") bottom center;
+  background-size: 33%
   
  
 
@@ -23,7 +23,7 @@ html {
 }
 
 .key {
-  border: 0.4rem solid black;
+  border: 0.4rem solid red;
   border-radius: 0.5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -31,15 +31,15 @@ html {
   transition: all 0.07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
+  color: red;
   background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0 0 0.5rem black;
+  text-shadow: 0 0 0.5rem red;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: red#666;
+  box-shadow: 0 0 1rem red;
 }
 
 kbd {
@@ -51,7 +51,7 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #ffc600;
+  color: #17151c;
 }
 @media (max-width: 600px) {
   .key {
